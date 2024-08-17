@@ -1,0 +1,31 @@
+2) algoritmo para calcular el consumo de energía 
+
+1) iniciar 
+2) averiguar la potencia de los electrodomésticos:potencia=
+1500 vatios.
+3) calcular horas de uso diario:horas-dia=
+4) calcular el consumo diario:
+consumo-diario=(potencia/1000)*hora-dia.
+5) calcular el consumo mensual:
+consumo-mensual=consumo-diario*30.
+6) mostrar en consumo mensual m kWh.
+7) and
+
+pseudocodigo
+star
+//pr0gramar para calcular el consumo de energia.
+Declare float potencia como entero
+Declare float dia como entero
+Declare float diario como real
+Declare flat mensual como real
+
+//Display= 1500
+  Display=3
+  Diplay=(potencia/1000)*horas-dia
+  Dispay=30
+
+  Display="consumo mensual en kWh".
+
+ and
+
+  

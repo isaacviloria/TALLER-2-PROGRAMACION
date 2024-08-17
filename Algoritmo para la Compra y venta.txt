@@ -1,0 +1,46 @@
+Algoritmo para la Compra y venta de equipos electrónicos 
+1. Iniciar 
+2. Definir variables de compra: Numero_equipos, Precio_compra , Comision_compra = 0,03 * Numero_equipos * Precio_Equipos, total_compra = Num_equipos * precio_compra + comision_compra
+3. Asignar valores a las variables 
+"Precio_venta = 175"
+"comision_venta = 0,03" * Numero_equipos * precio_venta"
+"total_venta = num_equipos * precio_venta - comision_venta"
+4. Calcular ganancia o perdida: "Ganancia = total_venta - total_compra" 
+5. Resultados: "total_compra", "total_venta", comision_compra", "comision_venta", "Ganancias_si_ganancia>0", "Perdida_si_ganancia<0"
+5. Fin 
+
+Pseudocódigo
+Star
+//INICIO
+    Definir num_equipos como entero
+    Definir precio_compra como real
+    Definir comision_compra como real
+    Definir total_compra como real
+    
+    Definir precio_venta como real
+    Definir comision_venta como real
+    Definir total_venta como real
+    
+    Definir ganancia como real
+    
+    num_equipos = 50
+    precio_compra = 150
+    comision_compra = 0.03 * num_equipos * precio_compra
+    total_compra = num_equipos * precio_compra + comision_compra
+    
+    precio_venta = 175
+    comision_venta = 0.03 * num_equipos * precio_venta
+    total_venta = num_equipos * precio_venta - comision_venta
+    
+    ganancia = total_venta - total_compra
+    
+    Imprimir "Total pagado por la compra: $", total_compra
+    Imprimir "Comisión pagada en la compra: $", comision_compra
+    Imprimir "Total recibido por la venta: $", total_venta
+    Imprimir "Comisión pagada en la venta: $", comision_venta
+    
+    SI ganancia > 0 ENTONCES
+        Imprimir "Ganancia: $", ganancia
+    SINO
+        Imprimir "Pérdida: $", ganancia
+End

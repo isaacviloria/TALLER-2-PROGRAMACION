@@ -1,0 +1,21 @@
+Algoritmo para la información de un libro 
+1. Iniciar 
+2. Proclamar variables: "Titulo", "Autor", "Precio", "Año de publicacion"
+3. Asignar valores a las variables
+4. Mostrar la información del libro 
+5. Fin 
+
+Pseudocódigo
+Star
+// Programa para la información de un libro de como a partir del Titulo, Autor, Precio, Año de publicación 
+Declare Float titulo 
+Declare Float Autor 
+Declare Precio
+Declare Autor
+
+Display: "Gritos al cielo", Titulo
+Display: "Maria Jose Ardila Pelaez"
+Display: "50,00"
+Display: "2023"
+
+End
